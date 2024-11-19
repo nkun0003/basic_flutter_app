@@ -20,7 +20,7 @@ class MainApp extends StatelessWidget {
           children: [
             // Top Horizontal ListView used internet images
             SizedBox(
-              height: 400,
+              height: 350,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
@@ -96,7 +96,7 @@ class MainApp extends StatelessWidget {
 
             // Bottom Horizontal ListView where i used local Assets i downloaded Images)
             SizedBox(
-              height: 400,
+              height: 350,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
