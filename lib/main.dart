@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; // importing 'package:flutter/material
 
 void main() {
   runApp(const MainApp());
@@ -92,7 +92,7 @@ class MainApp extends StatelessWidget {
                 style: TextStyle(fontFamily: 'Doto'),
               ),
             ),
-            const SizedBox(height: 20), // Space between sections
+            const SizedBox(height: 20), // here spacing between sections
 
             // Bottom Horizontal ListView where i used local Assets i downloaded Images)
             SizedBox(
