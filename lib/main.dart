@@ -11,7 +11,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Images and Assets',
-      theme: ThemeData(primarySwatch: Colors.brown, fontFamily: 'Ubuntu'),
+      theme: ThemeData(primarySwatch: Colors.brown, fontFamily: 'Inter'),
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Images and Assets'),
@@ -60,36 +60,36 @@ class MainApp extends StatelessWidget {
             const ListTile(
               leading: Icon(Icons.map),
               title: Text(
-                'Ubuntu 100',
-                style: TextStyle(fontWeight: FontWeight.w100),
+                'Inter 100',
+                style: TextStyle(fontWeight: FontWeight.w100, fontSize: 30),
               ),
             ),
             const ListTile(
-              leading: Icon(Icons.star),
+              leading: Icon(Icons.star_half),
               title: Text(
-                'Ubuntu 400',
-                style: TextStyle(fontWeight: FontWeight.w400),
+                'Inter 400',
+                style: TextStyle(fontWeight: FontWeight.w400, fontSize: 30),
               ),
             ),
             const ListTile(
-              leading: Icon(Icons.build),
+              leading: Icon(Icons.traffic),
               title: Text(
-                'Ubuntu 700',
-                style: TextStyle(fontWeight: FontWeight.w700),
-              ),
-            ),
-            const ListTile(
-              leading: CircleAvatar(child: Text('R1')),
-              title: Text(
-                'Doto',
-                style: TextStyle(fontFamily: 'Doto'),
+                'Inter 700',
+                style: TextStyle(fontWeight: FontWeight.w700, fontSize: 30),
               ),
             ),
             const ListTile(
               leading: CircleAvatar(child: Text('R1')),
               title: Text(
                 'Doto',
-                style: TextStyle(fontFamily: 'Doto'),
+                style: TextStyle(fontFamily: 'Doto', fontSize: 30),
+              ),
+            ),
+            const ListTile(
+              leading: CircleAvatar(child: Text('R1')),
+              title: Text(
+                'Doto',
+                style: TextStyle(fontFamily: 'Doto', fontSize: 30),
               ),
             ),
             const SizedBox(height: 20), // here spacing between sections

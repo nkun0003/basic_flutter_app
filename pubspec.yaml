@@ -52,11 +52,9 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   fonts:
-    - family: Ubuntu
+    - family: Inter
       fonts:
-        - asset: fonts/Ubuntu-Regular.ttf
-        - asset: fonts/Ubuntu-Italic.ttf
-        - asset: fonts/Ubuntu-Bold.ttf
+        - asset: fonts/Inter-VariableFont_opsz,wght.ttf
     - family: Doto
       fonts:
         - asset: fonts/Doto-VariableFont_ROND,wght.ttf
