@@ -14,7 +14,11 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.brown, fontFamily: 'Inter'),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Images and Assets'),
+          title: const Text(
+            'Images and Assets',
+            style: TextStyle(color: Colors.white),
+          ),
+          backgroundColor: Colors.brown,
         ),
         body: ListView(
           children: [
